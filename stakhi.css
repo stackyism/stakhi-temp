@@ -27,6 +27,11 @@ background: url(stakhi.jpg) no-repeat center center fixed;
 }
 .circle:hover{
 	opacity: 1;
+	transform : scale(1.5);
+	-webkit-transition: transform 0.25s ease-in-out;
+	-moz-transition: transform 0.25s ease-in-out;
+	-o-transition: transform 0.25s ease-in-out;
+	transition: transform 0.25s ease-in-out;
 }
 img {
 	margin: 15%;
